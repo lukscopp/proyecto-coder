@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>VitaFarma</title>
+</head>
+
+<body>
+    <!--Logo y Nombre-->
+    <header>
+        <div class="logo">
+            <img src="/medios/iconoazul.png" alt="Logo de la pagina">
+            <h1>VitaFarma</h1>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#servicios">SERVICIOS</a></li>
+            <li><a href="./pages/dermo.html">DERMOCOSMETICA</a></li>
+            <li><a href="./pages/contacto.html">CONTACTO</a></li>
+            <li><a href="./pages/salud.html">SALUD Y BIENESTAR</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="portada">
+            <p>Priorizamos tu salud y tu bienestar.</p>
+        </section>
+        <!-- Novedades -->
+        <section class="principal">
+            <h1 class="secciones-titulos">Descubri nuestras novedades...</h1>
+            <div class="novedades">
+                <div class="novedades-box">
+                    <a href="./pages/salud.html">
+                        <img src="/medios/gabinetesalud.png" alt="">
+                    </a>
+                    <p class="texto-novedades">¡Descubre nuestro gabinete de Salud y Bienestar, donde vas a encontrar
+                        mulitples tips y servicios para vos y tu familia!</p>
+                </div>
+                <div class="novedades-box">
+                    <img src="/medios/descuento.png" alt="" class="imagen-novedades">
+                    <p class="texto-novedades">¿Ya te enteraste de nuestros nuevos descuentos por fin de semana? ¡No
+                        desaproveches ninguna oportunidad!</p>
+                </div>
+                <div class="novedades-box">
+                    <img src="/medios/alergias.png" alt="" class="imagen-novedades">
+                    <p class="texto-novedades">En estos tiempos frescos no hay nada peor que las alergias... ¡Asesorate
+                        con nuestros expertos en el area! ¡Tus consultan no molestan!</p>
+                </div>
+            </div>
+        </section>
+        <!-- Tendencias -->
+        <section class="secciones-tendencia">
+            <h2 class="secciones-titulos">¡TENDENCIA!</h2>
+            <div class="tendencia-box">
+                <a href="./pages/dermo.html">
+                    <img src="/medios/productos.png" alt="" class="dermoproductos">
+                </a>
+                <h2 class="coleccion-titulo">Nueva Coleccion Winter Glow</h2>
+                <p class="coleccion-texto">El invierno trae consigo una belleza única, pero también un desafío para
+                    nuestra piel. El frío extremo y los vientos pueden dejarla seca, opaca y sin vida. Por eso, hemos
+                    creado esta línea de cuidado facial y corporal. Cada producto, desde el serum hidratante hasta la
+                    crema de manos Snowflake Soft, trabaja en conjunto para restaurar la barrera cutánea y proporcionar
+                    una hidratación profunda y duradera. Dile adiós a la piel agrietada y hola a un resplandor saludable
+                    durante todo el invierno. Para mas detalles haz <a href="/pages/dermo.html">¡CLICK AQUI!</a></p>
+            </div>
+        </section>
+        <!-- Servicios -->
+        <section id="servicios" class="servicios-box">
+            <h2 class="secciones-titulos">Nuestros servicios</h2>
+            <div class="servicios-grid">
+                <img src="medios/envios.jpg" alt="repartidor entregando cajas" class="servicios-imagen-envios">
+                <p class="servicios-texto-envios">¡Envios gratis alrededor de la zona local!</p>
+                <img src="medios/farma.jpg" alt="" class="servicios-imagen-farma">
+                <p class="servicios-texto-farma">¡Consulta personalizada de nuestros profesionales!</p>
+                <img src="medios/farmadermo.jpg" alt="" class="servicios-imagen-dermo">
+                <p class="servicios-texto-dermo">¡Dermocosmetica propia para todas tus necesidades!</p>
+            </div>
+        </section>
+        <section>
+            <h2 class="secciones-titulos">Acercate a nuestras sucursales mas cercanas!</h2>
+            <div class="mapa-box">
+                <div>
+                    <p><strong>Sucursal Palermo: </strong>Av. Sta. Fe 3602</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6569.57057989186!2d-58.41463!3d-34.584299!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb57fb82c97c9%3A0xa835da3f635a14fa!2sAv.%20Sta.%20Fe%203602%2C%20C1425BGL%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1756247214488!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div>
+                    <p><strong>Sucursal Micro Centro:</strong> Av. de Mayo 961</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.8169693946957!2d-58.38170939954583!3d-34.60878950787493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccad1b28b4f31%3A0xb85b35f0fd2977f!2sAv.%20de%20Mayo%20961%2C%20C1084AAE%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1756247034730!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <p class="nuevas-locaciones">¡Seguimos creciendo! ¡Enterate de nuestras nuevas surcursales!</p>
+            <div class="mapa-box">
+                <div>
+                    <p><strong>Sucursal Recoleta:</strong> Av. Gral. Las Heras 1877</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325.86549998314996!2d-58.39257573144731!3d-34.59105119012204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabd31061687%3A0x299734cfda83292b!2sAv.%20Gral.%20Las%20Heras%201877%2C%20C1127AAA%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1756247501494!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div>
+                    <p><strong>Sucrusal Balvanera:</strong> Av. Rivadavia 2513</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2255.8721970524575!2d-58.40291425477112!3d-34.6100311583503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaeeed06bfc1%3A0xe2edfa978e3e8249!2sAv.%20Rivadavia%202513%2C%20C1034%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1756247776221!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="">
+                <img src="/medios/iconoazul.png" alt="">
+                <p>VitaFarma</p>
+            </div>
+            <div class="footer-redes">
+                <p class="footer-titulo">REDES</p>
+                <div class="footer-texto">
+                    <p><img src="/medios/facebook.jpg" alt=""> Vita Farma</p>
+                    <p><img src="/medios/instagram.jpg" alt=""> vita_farma</p>
+                    <p><img src="/medios/x.png" alt=""> vita_farmacia</p>
+                </div>
+            </div>
+            <div class="footer-locacion">
+                <p class="footer-titulo">LOCACIONES <img src="/medios/icono-mapa.png" alt=""></p>
+                <div class="footer-texto">
+                    <p>Micro Centro</p>
+                    <p>Recoleta</p>
+                    <p>Palermo</p>
+                    <p>Balvanera</p>
+                    <p>PROXIMAMENTE Zona Sur</p>
+                </div>
+            </div>
+            <div class="footer-contacto">
+                <p class="footer-titulo">CONTACTO CENTRAL</p>
+                <div class="footer-texto">
+                    <p><img src="/medios/icono-mail.png" alt=""> vitafarmaof@gmail.com</p>
+                    <p><img src="/medios/icono-telefono.png" alt=""> 11 2233 4455</p>
+                    <p><img src="/medios/icono-globo-texto.png" alt=""> 11 2222 3333</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
